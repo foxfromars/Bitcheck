@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}	
+
+/* */
+
+body {
+    background-color : #F8F1FF;
+    width : 100%;
+    min-height: 100vh;
+    font-family : 'Trispace', sans-serif;
+}
+
+.Intro {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    
+
+
+    
+}
+.intro-text {
+    text-align : center;
+    padding-left : 15%;
+    padding-right : 5%;
+    width : 40%;
+}
+
+.input {
+    padding-right : 10%;
+
+}
+
+.Intro h1 {
+    font-size : 2rem;
+    font-weight : 200;
+    
+}
+
+.nav-header {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    height : 30%;
+    border-bottom : solid #e5e5e5 1px;
+    padding-left : 5%;
+    padding-right : 5%;
+}
+.nav-header a {
+    text-decoration : none;
+    color : black;
+    padding-bottom : 20px;
+}
+
+.help-contact a:hover {
+    border-bottom : #6c63ff 1px solid;
+
+}
+
+.Logo img  {
+    height : 60px;
+}
+
+svg {
+    width : 60px;
+    padding-bottom : 0px;
+}
+
+.Price-table {
+    display : flex;
+    flex-direction : column;
+    width : 100%;
+    height : 60%;
+    align-items : center;
+    justify-content : center;
+    margin-top : 10%;
+}
+
+.Table-header {
+    border : solid 1px #ACAFAF;
+    border-radius : 4px 4px 0px 0px;
+    width : 80%;
+    height: 20%;
+    color : #ACAFAF; 
+
+}
+
+.Table-body {
+    width : 80%;
+    height : 60%;
+    border-width : 0px 1px 1px 1px;
+    border-color : #ACAFAF;
+    border-style : solid;
+    border-radius : 0px 0px 4px 4px;
+    
+}
+
+.Table-body tr {
+    border-width : 0px 1px 1px 1px;
+    
+}
+
+.Table-body img {
+    width : 30px;
+}
+
+.Table-body span {
+    padding-left : 5px;
+}
+
+.Table-body a {
+    text-decoration : none;
+    background-color : #60F160;
+    border-radius : 5px;
+    padding : 5px 10px 5px 10px;
+    color : white; 
+}
+
+.abr {
+    color : #ACAFAF;
+}
+
+tr {
+    display : flex;
+    justify-content : space-between;
+    padding : 2% 2%;
+}
+
+.login a {
+    background-color : #6c63ff;
+    color : white;
+    margin-right : 8px; 
+    border-radius : 3px;
+    box-shadow : 0px 0.7px 2px black;
+    padding : 6px 10px 6px 10px;
+}
+
+.login a:hover {
+    background-color : #342DAD;
+}
+
+.arguments {
+    padding-top : 10%;
+}
+
+.arguments1 , .arguments2 , .arguments3 {
+    display : flex ;
+    flex-direction : row;
+    justify-content : space-between;
+    font-size : 2rem;
+    text-shadow : 0.5px 0.5px 1px black;
+}
+
+.arguments h1 {
+    width : 500px;
+    text-align : center;
+    padding-top : 8%;
+
+}
+
+.arguments1 h1 , .arguments3 h1, .arguments2 h1{
+    font-weight : 300;
+} 
+
+.arguments1 h1{
+    padding-left : 15%;
+}
+
+.arguments2 h1{
+    padding-right : 15%;
+}
+
+.arguments3 h1{
+    padding-left : 15%;
+}
+                    
+.arguments img {
+    width : 500px;
+}
+
+.arguments1 img{
+    padding-right : 10%;
+}
+
+.arguments2 img{
+    padding-left : 10%;
+}
+
+.arguments3 img{
+    padding-right : 10%;
+}
+
+footer {
+    color : white;
+    background-color :#342DAD ; 
+    margin-top : 8%;
+}
+footer a {
+    color : white;
+}
